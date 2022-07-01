@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Trispace:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #c6b0d4;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Trispace', sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-content:space-between ;
+    align-items:center ;
+    list-style: none;
+
+}/* adding style to logo*/
+#logo-img img{
+    width: 50px;
+    height:50px;
+    border-radius: 30%;
+    margin: 70px;
+}/* adding space btw list elements*/
+nav ul li{
+    margin: 0 20px;
+}/* removing the underline*/
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: wheat;
+}
+.home{
+    width: 100%;
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.home{
+    color: lavenderblush;
+}
+#bio-block{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+}
+h1,
+h3,
+h4{
+    font-weight: 700;
+}
+h2{
+    font-weight: 500;
+}
+h3{
+    font-size: 2.5em;
+}
+#bio img{
+    width:250px;
+    height: 205px;
+    border-radius: 50%;
+    margin: 100px;
+}
+p{
+    font-size: 1.5em;
+}
+hr{
+    width: 400px;
+}
+#portfolio{
+    background: url(./assets/port.jfif);
+    background-color: black;
+    color:white;
+}
+#portfolio,
+#skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+#portfolio div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+}
+#portfolio div article{
+    background: brown;
+    colour:black;
+    height:200px;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+}
+#portfolio div article{
+    padding: 0 5px;
+}
+#skill-container{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+}
+#skill-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#skills ul{
+    list-style: none;
+}
+#skills ul li{
+    margin: 10px 0;
+}
+progress[value]{
+    height:10px;
+    width:350px;
+    -webkit-appearance: none;
+}
+progress[value]::-webkit-progress-bar{
+    background-color: gray;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25 inset);
+}    
+::-webkit-progess-value{
+    background-color: #7a404f;
+}
+#skills ul{
+    font-size: 1.5em;
+}
+#contact{
+    background-color:#99395a ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0,
+}
+.input{
+    line-height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    border-color: black;
+    margin: 20px 0;
+}
+#contact form input: last-child{
+    margin-top:30px; 
+}
+#contact form{
+    display:flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+#skillcontainer div h4 div ul{
+    display:flex ;
+    justify-content:space-around;
+    margin: 10px 0;
+    width: 20px;
+}
+
